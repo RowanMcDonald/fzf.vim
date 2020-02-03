@@ -252,10 +252,7 @@ function! s:align_lists(lists)
 endfunction
 
 function! s:warn(message)
-  echohl WarningMsg
-  echom a:message
-  echohl None
-  return 0
+  return
 endfunction
 
 function! s:fill_quickfix(list, ...)
